@@ -12,7 +12,7 @@ public class RouterListener extends Thread{
 		this.router = router;  //Our Computer  is a out router 
 		
 		try{
-			ss = new ServerSocket(5555);   // trying to connect a Socket using port 5555
+			ss = new ServerSocket(6666);   // trying to connect a Socket using port 5555
 		}catch(IOException e){
 			e.printStackTrace();
 		}
